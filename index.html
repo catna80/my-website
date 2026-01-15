@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>กดปุ่มแสดงรูป</title>
+
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial;
+            padding-top: 40px;
+        }
+
+        img {
+            margin-top: 20px;
+            width: 300px;
+            display: none; /* ซ่อนรูปไว้ก่อน */
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>คำสั่งแต่งตั้ง (รอง สว. - ผบ.หมู่) ปี 2569</h1>
+    
+    <button onclick="showImage()">คลิกเพื่อตรวจสอบรายชื่อ</button>
+
+    <br>
+<a href="https://www.google.com" target="_blank"></a>
+    <img id="myImage" src="photo.jpg.jpg" alt="แสดงภาพตัวอย่าง">
+    <img src="photo.jpg.jpg" width="300">
+</a>
+    <script>
+        function showImage() {
+            document.getElementById("myImage").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
